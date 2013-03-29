@@ -1,4 +1,5 @@
 Helloworld::Application.routes.draw do
+  resources :hellos
   root :to => 'hello#hello'
   # The priority is based upon order of creation:
   # first created -> highest priority.
